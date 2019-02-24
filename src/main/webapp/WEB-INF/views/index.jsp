@@ -138,7 +138,7 @@
   <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
     <div class="container">
       <a class="navbar-brand mr-lg-5" href="../index.html">
-        <img src="resources/logo.png">
+        <img src="../assets/img/brand/logo.png">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -149,7 +149,7 @@
           <div class="row">
             <div class="col-6 collapse-brand">
               <a href="../index.html">
-                <img src="resources/blue.png">
+                <img src="../assets/img/brand/blue.png">
               </a>
             </div>
             <div class="col-6 collapse-close">
@@ -205,6 +205,67 @@
   </nav>
 </header>
 <main>
+  <div class="position-relative">
+    <!-- shape Hero -->
+    <section class="section section-lg section-shaped pb-250">
+      <div class="shape shape-style-1 shape-default">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="row">
+        <div class="container">
+          <div class="card bg-gradient-info shadow-lg border-0">
+            <div class="p-5">
+              <div class="row align-items-center">
+                <div class="col-lg-8">
+                  <h3 class="text-white">We made this website to make technical things easier for you.</h3>
+                  <p class="lead text-white mt-3">We provide short and precise and for better visualization some videos will help you more.</p>
+                </div>
+                <div class="col-lg-3 ml-lg-auto">
+                  <a href="" class="btn btn-lg btn-block btn-white">video coming soon</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- SVG separator -->
+       <!--  <div class="separator separator-bottom separator-skew">
+          <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+          </svg>
+        </div> -->
+      </section>
+      <!-- 1st Hero Variation -->
+    </div>
+    <!--left vertical nav-->
+    <div class="row">
+      <!-- Sidebar Column -->
+      <div class="col-lg-3 mb-4">
+        <!-- Sidebar Column -->
+        <div class="topnav" id="myTopnav">
+          <a href="" class="list-group-item">Home</a>
+          <a href=" " class="list-group-item">About</a>
+          <a href="" class="list-group-item">Services</a>
+          <a href="" class="list-group-item">Contact</a>
+          <a href="" class="list-group-item">1 Column Portfolio</a>
+          <a href="" class="list-group-item">2 Column Portfolio</a>
+
+        </div>
         <div class="row">
          <!--  advertisement -->
          <div class="card">
@@ -257,7 +318,7 @@
                   <div class="card-body py-5">
                     <div class="icon icon-shape mb-4">
                      <a class="navbar-brand mr-lg-5" href="">
-                       <img src="resources/rgpvlogo.png">
+                       <img src="../assets/img/brand/rgpvlogo.png">
                      </a>           
                    </div>
                    <h6 class="text-primary text-uppercase">Download Technical</h6>
@@ -277,7 +338,7 @@
                   <div class="card-body py-5">
                     <div class="icon icon-shape mb-4">
                      <a class="navbar-brand mr-lg-5" href="">
-                       <img src="resources/java.png">
+                       <img src="../assets/img/brand/java.png">
                      </a>                     </div>
                      <h6 class="text-success text-uppercase">Quick Learn</h6>
                      <p class="description mt-3">Quick Learn for java with precise and short notes to better understanding of technology</p>
@@ -295,7 +356,7 @@
                   <div class="card-body py-5">
                     <div class="icon icon-shape mb-4">
                      <a class="navbar-brand mr-lg-5" href="">
-                       <img src="assets/img/brand/c&c++.png">
+                       <img src="../assets/img/brand/c&c++.png">
                      </a>                    </div>
                      <h6 class="text-warning text-uppercase">Quick Lunch</h6>
                      <p class="description mt-3">Quick Lunch with C & C++ for interview purpose as well as self study , here you get short and sweet start for better understanding</p>
