@@ -21,7 +21,6 @@
         <link href="${fontawesomeminCss}" rel="stylesheet">
         <link href="${simplesidebarCss}" rel="stylesheet">
         <link href="${argonCss}" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
        
     
   </head>
