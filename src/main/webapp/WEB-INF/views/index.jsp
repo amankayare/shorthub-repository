@@ -8,16 +8,16 @@
   <meta name="author" content="Creative Tim">
   <title>ShortHub</title>
   <!-- Favicon -->
-  <link href="assets/img/brand/favicon.png" rel="icon" type="image/png">
+  <link href="resources/favicon.png" rel="icon" type="image/png">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
   <!-- Icons -->
-  <link href="assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
-  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="resources/nucleo.css" rel="stylesheet">
+  <link href="resources/font-awesome.min.css" rel="stylesheet">
   <!-- Argon CSS -->
-  <link type="text/css" href="assets/css/argon.css?v=1.0.1" rel="stylesheet">
+  <link type="text/css" href="resources/argon.css?v=1.0.1" rel="stylesheet">
   <!--side bar CSS -->
-  <link href="assets/css/simple-sidebar.css" rel="stylesheet">
+  <link href="resources/simple-sidebar.css" rel="stylesheet">
 </head>
 
 <body>
@@ -425,12 +425,12 @@
   </div>
 </footer>
 <!-- Core -->
-<script src="assets/vendor/jquery/jquery.min.js"></script>
-<script src="assets/vendor/popper/popper.min.js"></script>
-<script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
-<script src="assets/vendor/headroom/headroom.min.js"></script>
+<script src="resources/jquery.min.js"></script>
+<script src="resources/popper.min.js"></script>
+<script src="resources/bootstrap.min.js"></script>
+<script src="resources/headroom.min.js"></script>
 <!-- Argon JS -->
-<script src="assets/js/argon.js?v=1.0.1"></script>
+<script src="resources/argon.js?v=1.0.1"></script>
 <!-- loader js -->  
 
 <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
