@@ -138,7 +138,7 @@
   <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
     <div class="container">
       <a class="navbar-brand mr-lg-5" href="../index.html">
-        <img src="../assets/img/brand/logo.png">
+        <img src="resources/logo.png">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -149,7 +149,7 @@
           <div class="row">
             <div class="col-6 collapse-brand">
               <a href="../index.html">
-                <img src="../assets/img/brand/blue.png">
+                <img src="resources/blue.png">
               </a>
             </div>
             <div class="col-6 collapse-close">
@@ -318,7 +318,7 @@
                   <div class="card-body py-5">
                     <div class="icon icon-shape mb-4">
                      <a class="navbar-brand mr-lg-5" href="">
-                       <img src="../assets/img/brand/rgpvlogo.png">
+                       <img src="resources/rgpvlogo.png">
                      </a>           
                    </div>
                    <h6 class="text-primary text-uppercase">Download Technical</h6>
@@ -338,7 +338,7 @@
                   <div class="card-body py-5">
                     <div class="icon icon-shape mb-4">
                      <a class="navbar-brand mr-lg-5" href="">
-                       <img src="../assets/img/brand/java.png">
+                       <img src="resources/java.png">
                      </a>                     </div>
                      <h6 class="text-success text-uppercase">Quick Learn</h6>
                      <p class="description mt-3">Quick Learn for java with precise and short notes to better understanding of technology</p>
@@ -356,7 +356,7 @@
                   <div class="card-body py-5">
                     <div class="icon icon-shape mb-4">
                      <a class="navbar-brand mr-lg-5" href="">
-                       <img src="../assets/img/brand/c&c++.png">
+                       <img src="resources/c&c++.png">
                      </a>                    </div>
                      <h6 class="text-warning text-uppercase">Quick Lunch</h6>
                      <p class="description mt-3">Quick Lunch with C & C++ for interview purpose as well as self study , here you get short and sweet start for better understanding</p>
