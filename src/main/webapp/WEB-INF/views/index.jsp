@@ -1,25 +1,30 @@
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>JavaSpringWebApp</title>
+    <meta name="description" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="Creative Tim">
-  <title>ShortHub</title>
-  <!-- Favicon -->
-  <link href="assets/img/brand/favicon.png" rel="icon" type="image/png">
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <!-- Icons -->
-  <link href="assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
-  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <!-- Argon CSS -->
-  <link type="text/css" href="assets/css/argon.css?v=1.0.1" rel="stylesheet">
-  <!--side bar CSS -->
-  <link href="assets/css/simple-sidebar.css" rel="stylesheet">
-</head>
-
+    <spring:url value="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"/>
+    <spring:url value="/resources/nucleo.css" var="nucleoCss" />
+    <spring:url value="/resources/font-awesome.min.css" var="fontawesomeminCss" />
+    <spring:url value="/resources/simple-sidebar.css" var="simplesidebarCss" />
+    <spring:url value="/resources/argon.css?v=1.0.1" var="argonCss" />
+    <spring:url value="/resources/set-background.js" var="setBackgroundJs" />
+    <spring:url value="/resources/jquery.min.js" var="jqueryminjs"/>
+    <spring:url value="/resources/popper.min.js" var="popperminjs"/>
+    <spring:url value="/resources/bootstrap.min.js" var="bootstrapminjs"/>
+    <spring:url value="/resources/headroom.min.js" var="headroomminjs"/>
+        <link href="${nucleoCss}" rel="stylesheet">
+        <link href="${fontawesomeminCss}" rel="stylesheet">
+        <link href="${simplesidebarCss}" rel="stylesheet">
+        <link href="${argonCss}" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+       
+    
+  </head>
 <body>
   <div class="se-pre-con"></div>
   <div class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="modal-form" aria-hidden="true">
@@ -138,7 +143,7 @@
   <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
     <div class="container">
       <a class="navbar-brand mr-lg-5" href="../index.html">
-        <img src="assets/img/brand/logo.png">
+        <img src="../assets/img/brand/logo.png">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -149,7 +154,7 @@
           <div class="row">
             <div class="col-6 collapse-brand">
               <a href="../index.html">
-                <img src="assets/img/brand/blue.png">
+                <img src="../assets/img/brand/blue.png">
               </a>
             </div>
             <div class="col-6 collapse-close">
@@ -229,7 +234,7 @@
             <div class="p-5">
               <div class="row align-items-center">
                 <div class="col-lg-8">
-                  <h3 class="text-white">We made this website to make technical things easier for you.</h3>
+                  <h3 class="text-white">hello made this website to make technical things easier for you.</h3>
                   <p class="lead text-white mt-3">We provide short and precise and for better visualization some videos will help you more.</p>
                 </div>
                 <div class="col-lg-3 ml-lg-auto">
@@ -318,7 +323,7 @@
                   <div class="card-body py-5">
                     <div class="icon icon-shape mb-4">
                      <a class="navbar-brand mr-lg-5" href="">
-                       <img src="assets/img/brand/rgpvlogo.png">
+                       <img src="../assets/img/brand/rgpvlogo.png">
                      </a>           
                    </div>
                    <h6 class="text-primary text-uppercase">Download Technical</h6>
@@ -329,7 +334,7 @@
                       <span class="badge badge-pill badge-primary">PDF</span>
                       <span class="badge badge-pill badge-primary">rgpv-syllabus</span>
                     </div>
-                    <a href="examples/rgpvpage.html" class="btn btn-primary mt-4">Learn more</a>
+                    <a href="rgpvpage.html" class="btn btn-primary mt-4">Learn more</a>
                   </div>
                 </div>
               </div>
@@ -338,7 +343,7 @@
                   <div class="card-body py-5">
                     <div class="icon icon-shape mb-4">
                      <a class="navbar-brand mr-lg-5" href="">
-                       <img src="assets/img/brand/java.png">
+                       <img src="../assets/img/brand/java.png">
                      </a>                     </div>
                      <h6 class="text-success text-uppercase">Quick Learn</h6>
                      <p class="description mt-3">Quick Learn for java with precise and short notes to better understanding of technology</p>
@@ -356,7 +361,7 @@
                   <div class="card-body py-5">
                     <div class="icon icon-shape mb-4">
                      <a class="navbar-brand mr-lg-5" href="">
-                       <img src="assets/img/brand/c&c++.png">
+                       <img src="../assets/img/brand/c&c++.png">
                      </a>                    </div>
                      <h6 class="text-warning text-uppercase">Quick Lunch</h6>
                      <p class="description mt-3">Quick Lunch with C & C++ for interview purpose as well as self study , here you get short and sweet start for better understanding</p>
@@ -485,16 +490,15 @@
     </div>
   </div>
 </footer>
-<!-- Core -->
-<script src="assets/vendor/jquery/jquery.min.js"></script>
-<script src="assets/vendor/popper/popper.min.js"></script>
-<script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
-<script src="assets/vendor/headroom/headroom.min.js"></script>
-<!-- Argon JS -->
-<script src="assets/js/argon.js?v=1.0.1"></script>
-<!-- loader js -->  
 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
-<body>
-
-  </html>
+    <script src={$setBackgroundJs}"></script>
+    
+    <script src={$jqueryminjs}"></script>
+    <script src={$popperminjs}"></script>
+    <script src={$bootstrapminjs}"></script>
+    <script src={$headroomminjs}"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    
+    
+  </body>
+</html>
