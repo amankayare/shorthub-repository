@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 
 <head>
@@ -229,7 +231,7 @@
             <div class="p-5">
               <div class="row align-items-center">
                 <div class="col-lg-8">
-                  <h3 class="text-white">We made this website to make technical things easier for you.</h3>
+                  <h3 class="text-white">We love made this website to make technical things easier for you.</h3>
                   <p class="lead text-white mt-3">We provide short and precise and for better visualization some videos will help you more.</p>
                 </div>
                 <div class="col-lg-3 ml-lg-auto">
@@ -329,7 +331,7 @@
                       <span class="badge badge-pill badge-primary">PDF</span>
                       <span class="badge badge-pill badge-primary">rgpv-syllabus</span>
                     </div>
-                    <a href="rgpvpage.html" class="btn btn-primary mt-4">Learn more</a>
+                    <a href="resources/resrgpvpage.html" class="btn btn-primary mt-4">Learn more</a>
                   </div>
                 </div>
               </div>
