@@ -329,7 +329,7 @@
                       <span class="badge badge-pill badge-primary">PDF</span>
                       <span class="badge badge-pill badge-primary">rgpv-syllabus</span>
                     </div>
-                    <a href="eighthsem.html" class="btn btn-primary mt-4">Learn more</a>
+                    <a href="examples/rgpvpage.html" class="btn btn-primary mt-4">Learn more</a>
                   </div>
                 </div>
               </div>
